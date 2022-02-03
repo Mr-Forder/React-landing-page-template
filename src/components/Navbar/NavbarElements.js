@@ -25,7 +25,6 @@ export const NavBarContainer = styled.div`
   width: 100%;
   max-width: 1100px;
   padding: 0 24px;
-  z-index: 1;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -77,6 +76,10 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
+  &:hover {
+    color: #01bf71;
+  }
 
   &.active {
     border-bottom: 3px solid #01bf71;

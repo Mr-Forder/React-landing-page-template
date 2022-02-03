@@ -30,12 +30,30 @@ export const homeObjTwo = {
   img: require("../../images/currency.svg").default,
   alt: "currency",
   dark: false,
-  primary: true,
+  primary: false,
   darkText: true,
 };
 
 export const homeObjThree = {
   id: "services",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Our Services",
+  headline: "Unlimited transactions. Zero fees.",
+  description:
+    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/mobile.svg").default,
+  alt: "mobile",
+  dark: true,
+  primary: true,
+  darkText: true,
+};
+
+export const homeObjFour = {
+  id: "final",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
