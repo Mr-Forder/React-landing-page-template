@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavBarContainer,
@@ -26,11 +27,17 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavBarContainer>
-          <NavLogo to="/">Logo</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>
+            Logo
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
