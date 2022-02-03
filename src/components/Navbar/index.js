@@ -27,6 +27,13 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  //Cleanup event listeners on unmount
+  useEffect(() => {
+    return () => {
+      window.removeEventListener("scroll", changeNav);
+    };
+  }, []);
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
