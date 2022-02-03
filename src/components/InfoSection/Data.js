@@ -1,4 +1,5 @@
 export const homeObjOne = {
+  to: "discover",
   id: "about",
   lightBg: false,
   lightText: true,
@@ -17,11 +18,12 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
+  to: "discover",
   id: "discover",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Second Bit",
+  topLine: "Discover",
   headline: "Unlimited transactions. Zero fees.",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
@@ -35,11 +37,12 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
+  to: "discover",
   id: "services",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Our Services",
+  topLine: "Services",
   headline: "Unlimited transactions. Zero fees.",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
@@ -53,6 +56,7 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
+  to: "signin",
   id: "final",
   lightBg: false,
   lightText: true,

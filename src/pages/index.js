@@ -24,11 +24,11 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjOne} samePageLink={true} />
+      <InfoSection {...homeObjTwo} samePageLink={true} />
       <ServicesSection />
-      <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjFour} />
+      <InfoSection {...homeObjThree} samePageLink={true} />
+      <InfoSection {...homeObjFour} samePageLink={false} />
       <Footer />
     </>
   );
