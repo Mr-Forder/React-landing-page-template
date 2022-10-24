@@ -28,7 +28,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} samePageLink={true} />
       <ServicesSection />
       <InfoSection {...homeObjThree} samePageLink={true} />
-      <InfoSection {...homeObjFour} samePageLink={false} />
+
       <Footer />
     </>
   );

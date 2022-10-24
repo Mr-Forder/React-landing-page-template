@@ -18,18 +18,18 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>No Fees. No NFTs. Just good vibes.</ServicesP>
+          <ServicesH2>Heading</ServicesH2>
+          <ServicesP>Content.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>No Fees. No NFTs. Just good vibes.</ServicesP>
+          <ServicesH2>Heading</ServicesH2>
+          <ServicesP>Content.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>No Fees. No NFTs. Just good vibes.</ServicesP>
+          <ServicesH2>Heading</ServicesH2>
+          <ServicesP>Content.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

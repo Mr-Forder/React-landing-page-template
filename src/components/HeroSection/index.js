@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../../videos/video2.mp4";
+import Video from "../../videos/video1.mp4";
 import {
   HeroContainer,
   HeroBg,
@@ -26,10 +26,8 @@ const HeroSection = () => {
       </HeroBg>
       <Center>
         <HeroContent>
-          <HeroH1>Your Money. Made Simple.</HeroH1>
-          <HeroP>
-            Connect your Ethereum wallet to send and recieve with ease.
-          </HeroP>
+          <HeroH1>I'm a Template.</HeroH1>
+          <HeroP>Feel free to use me for your landing pages.</HeroP>
           <HeroBtnWrapper>
             <Button
               to="signup"
